@@ -48,6 +48,12 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 980px) {
+  .logo {
+    left: 15px!important;
+  }
+}
 </style>
 
 <style>

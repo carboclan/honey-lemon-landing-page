@@ -33,78 +33,83 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .content {
-    margin: 100px 50px;
+  margin: 100px 50px;
 
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-    }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-    .row.layout {
-      max-width: 1100px;
-      justify-content: space-between;
-      align-items: flex-start;
+  .row.layout {
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: flex-start;
 
-      .slogan {
-        /*width: 480px;*/
-        > span {
-          display: inline-block;
+    .slogan {
+      /*width: 480px;*/
+      > span {
+        display: inline-block;
 
-          &.yellow {
-            background-color: #fef807;
-            padding: 5px 10px;
-            font-size: 44px;
-            margin: 10px 0;
-            box-shadow: 5px 5px 5px #888888;
-            text-shadow: 2px 2px 2px #888888;
-          }
-
-          &.black {
-            background-color: black;
-            color: #fef807;
-            margin-top: 50px;
-            padding: 2px 5px;
-            font-size: 18px;
-          }
+        &.yellow {
+          background-color: #fef807;
+          padding: 5px 10px;
+          font-size: 44px;
+          margin: 10px 0;
+          box-shadow: 5px 5px 5px #888888;
+          text-shadow: 2px 2px 2px #888888;
         }
-      }
 
-      .desc {
-        margin: 10px 0 10px 0;
-        font-size: 20px;
-        max-width: 527px;
+        &.black {
+          background-color: black;
+          color: #fef807;
+          margin-top: 50px;
+          padding: 2px 5px;
+          font-size: 18px;
+        }
       }
     }
 
-    .row.form {
-      align-items: center;
-
-      input {
-        font-family: 'Eras ITC', 'Avenir', Helvetica, Arial, sans-serif;
-        font-size: 20px;
-        padding: 10px;
-        margin-right: 10px;
-        border: 1px solid black;
-        border-radius: 5px;
-        box-shadow: 3px 3px 3px #888888;
-        flex-grow: 3;
-
-        &::placeholder {
-          font-size: 20px;
-        }
-      }
-
-      .btn {
-        cursor: pointer;
-        background-image: url("../assets/logo.png");
-        background-size: 80px;
-        width: 80px;
-        height: 62px;
-        text-align: center;
-        line-height: 62px;
-        font-size: 20px;
-      }
+    .desc {
+      margin: 10px 0 10px 0;
+      font-size: 20px;
+      max-width: 527px;
     }
   }
 
+  .row.form {
+    align-items: center;
+
+    input {
+      font-family: 'Eras ITC', 'Avenir', Helvetica, Arial, sans-serif;
+      font-size: 20px;
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid black;
+      border-radius: 5px;
+      box-shadow: 3px 3px 3px #888888;
+      flex-grow: 1;
+
+      &::placeholder {
+        font-size: 20px;
+      }
+    }
+
+    .btn {
+      cursor: pointer;
+      background-image: url("../assets/logo.png");
+      background-size: 80px;
+      width: 80px;
+      height: 62px;
+      text-align: center;
+      line-height: 62px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .content {
+    margin: 100px 15px;
+  }
+}
 </style>
