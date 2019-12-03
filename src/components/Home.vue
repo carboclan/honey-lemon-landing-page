@@ -9,7 +9,7 @@
       </div>
       <div class="col">
         <div class="desc">We aggregate and rate existing cloud mining contracts, for transparency, standardization and price discovery.</div>
-        <div class="desc" style="margin: 160px 0 20px 0;">Sign up for fresh updates & never miss a juicy deal.</div>
+        <div class="desc sign_up">Sign up for fresh updates & never miss a juicy deal.</div>
 
         <div class="row form">
           <label for="email" style="display: none;">email</label>
@@ -33,7 +33,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .content {
-  margin: 100px 50px;
+  margin: 120px 70px;
 
   .row {
     display: flex;
@@ -73,6 +73,10 @@ export default {
       margin: 10px 0 10px 0;
       font-size: 20px;
       max-width: 527px;
+
+      &.sign_up {
+        margin: 160px 0 20px 0;
+      }
     }
   }
 
@@ -109,7 +113,17 @@ export default {
 
 @media screen and (max-width: 980px) {
   .content {
-    margin: 100px 15px;
+    margin: 60px 15px;
+
+    .row.layout {
+      .black {
+        margin-top: 10px!important;
+      }
+
+      .desc.sign_up {
+        margin: 20px 0;
+      }
+    }
   }
 }
 </style>
