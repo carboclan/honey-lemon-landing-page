@@ -112,7 +112,7 @@ export default {
   }
 }
 
-@media screen and (min-height: 620px) {
+@media screen and (min-height: 750px) {
   .content {
     padding-bottom: 100px;
   }

@@ -75,7 +75,7 @@ export default {
   }
 }
 
-@media screen and (min-height: 620px) {
+@media screen and (min-height: 750px) {
   .footer {
     position: fixed;
     width: 100%;
@@ -94,8 +94,14 @@ export default {
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #d0d0d0;
   min-height: 100%;
+  background-color: #d0d0d0;
+}
+
+@media screen and (max-height: 750px) {
+  html {
+    background-color: white;
+  }
 }
 
 @font-face {
