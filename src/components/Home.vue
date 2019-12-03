@@ -42,8 +42,8 @@ export default {
   }
 
   .row.layout {
-    max-width: 1100px;
-    justify-content: space-between;
+    /*max-width: 1100px;*/
+    justify-content: space-around;
     align-items: flex-start;
 
     .slogan {
