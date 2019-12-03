@@ -7,6 +7,13 @@
       </div>
     </div>
     <home/>
+    <div class="footer">
+      <div class="links">
+        <a target="_blank" href="https://t.me/honeylemon_mining"><i style="color: #2D5DA1;" class="fab fa-telegram" /></a>
+        <a target="_blank" href="https://twitter.com/honeylemonm"><i style="color: #1AB1E5;" class="fab fa-twitter" /></a>
+      </div>
+      © 2019 Honey Lemon
+    </div>
   </div>
 </template>
 
@@ -49,6 +56,28 @@ export default {
   }
 }
 
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+
+  .links {
+    margin-bottom: 15px;
+
+    a {
+      cursor: pointer;
+
+      i {
+        font-size: 25px;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 980px) {
   .logo {
     left: 15px!important;
@@ -61,6 +90,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #d0d0d0;
+  min-height: 100%;
 }
 
 @font-face {

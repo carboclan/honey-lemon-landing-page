@@ -33,7 +33,8 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .content {
-  margin: 120px 70px;
+  padding-bottom: 100px;
+  margin: 120px 70px 0 70px;
 
   .row {
     display: flex;
@@ -113,7 +114,7 @@ export default {
 
 @media screen and (max-width: 980px) {
   .content {
-    margin: 60px 15px;
+    margin: 60px 15px 0 15px;
 
     .row.layout {
       .black {
