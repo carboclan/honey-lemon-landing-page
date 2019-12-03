@@ -6,13 +6,19 @@
         <div>Lemon</div>
       </div>
     </div>
+    <home/>
   </div>
 </template>
 
 <script>
+import Home from "./components/Home";
 
 export default {
-  name: 'app'
+  name: 'app',
+  components: {Home},
+  comments: {
+    Home
+  }
 }
 </script>
 
@@ -35,6 +41,7 @@ export default {
     justify-content: center;
 
     div {
+      text-align: center;
       margin-left: -7px;
       font-weight: bold;
       font-size: 20px;
@@ -47,6 +54,7 @@ export default {
 html, body {
   margin: 0;
   padding: 0;
+  background-color: #d0d0d0;
 }
 
 @font-face {
@@ -64,6 +72,5 @@ html, body {
   font-family: 'Eras ITC', 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
 }
 </style>
