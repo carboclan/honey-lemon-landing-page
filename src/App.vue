@@ -60,9 +60,6 @@ export default {
   background-color: white;
   text-align: center;
   padding: 15px;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 
   .links {
     margin-bottom: 15px;
@@ -75,6 +72,14 @@ export default {
         margin: 0 5px;
       }
     }
+  }
+}
+
+@media screen and (min-height: 620px) {
+  .footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
   }
 }
 

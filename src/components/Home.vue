@@ -33,7 +33,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 .content {
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   margin: 120px 70px 0 70px;
 
   .row {
@@ -109,6 +109,12 @@ export default {
       line-height: 62px;
       font-size: 20px;
     }
+  }
+}
+
+@media screen and (min-height: 620px) {
+  .content {
+    padding-bottom: 100px;
   }
 }
 
