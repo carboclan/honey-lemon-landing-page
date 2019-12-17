@@ -9,7 +9,7 @@
     <home/>
     <div class="footer">
       <div class="links">
-        <a target="_blank" href="https://t.me/honeylemon_mining"><i style="color: #2D5DA1;" class="fab fa-telegram" /></a>
+        <a target="_blank" href="https://t.me/joinchat/I9o0JBU3JKkxb-yRSkIFvA"><i style="color: #2D5DA1;" class="fab fa-telegram" /></a>
         <a target="_blank" href="https://twitter.com/honeylemonm"><i style="color: #1AB1E5;" class="fab fa-twitter" /></a>
       </div>
       © 2019 Honey Lemon
